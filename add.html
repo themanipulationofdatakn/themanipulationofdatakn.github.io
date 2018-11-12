@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/main.css">
+  <script src="jquery.paroller.min.js"></script>
+  <script src="jquery-3.1.1.min.js"></script>
+  <title>The Manipulation of Data</title>
+
+</head>
+<body>
+
+
+<div class="topbanner">
+  <a href="index.html" style="color:inherit; text-decoration:none;"><p3>THE MANIPULATION</p3><p4>  OF DATA:</p4></a>
+<div class="container">
+<div><p class="text-decoration:none;">KASPER NORTHEMIER</p></div>
+</div>
+</div>
+
+<div class="mainsection3">
+                      <div class="box1"><img src="images/add_first_box.png"></div>
+                      <div class="box2"><img src="images/add_second_box.png"></div>
+                      <div class="arrow01"><img src="images/arrow_01.gif"></div>
+                      <div class="box3"><img src="images/add_third_box.png"></div>
+                      <div class="arrow02"><img src="images/arrow_02.png"></div>
+                      <div class="box4"><a href="terms.html"><img src="images/add_4_box.png"></a></div>
+                      <div class="arrow03"><img src="images/arrow_03.gif"></div>
+                      <div class="box5"><a href="kasper.html"><img src="images/add_5_box.png"></a></div>
+                      <div class="box6"><img src="images/add_6_box.png"></div>
+                      <div class="box7"><img src="images/add_7_box.png"></div>
+                      <div class="arrow04"><img src="images/arrow_04.gif"></div>
+</div>
+</div>
+
+<div class="centerbutton">
+  <div class="button1"><a href="subtract.html" class="animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="2000"><img src="images/button_right.png"></a></div>
+  <div class="button2"><a href="index.html"><img src="images/button_left.png"></a></div>
+</div>
+
+<div class="footer">
+<ul id="nav">
+    <li class="active"><a href="add.html"><p1>ADD</p1></a></li>
+    <li><a href="subtract.html"><p2>SUBTRACT</p2></a></li>
+    <li><a href="multiply.html" target="_top"><p1>MULTIPLY</p1></a></li>
+    <li><a href="divide.html" target="_top"><p2>DIVIDE</p2></a></li>
+  </ul>
+  <div id="credits">
+  <b1><a href="www.kylengo.com" style="color:inherit; text-decoration:none;">KYLE NGO</a> © ALL RIGHTS RESERVED.</b1>
+  </div>
+</div>
+
+
+
+</body>
+<script>
+// initialize paroller.js
+$('.my-paroller').paroller();
+
+// initialize paroller.js and set attributes for selected elements
+
+                       $(".paroller, [data-paroller-factor]").paroller({
+                           factor: 0.3,            // multiplier for scrolling speed and offset
+                           type: 'foreground',     // background, foreground
+                           direction: 'horizontal' // vertical, horizontal
+                       });
+
+
+</script>
+</html>

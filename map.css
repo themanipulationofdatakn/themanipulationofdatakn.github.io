@@ -1,0 +1,35 @@
+
+path:hover, circle:hover {
+  stroke: #fff !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #00f000 !important;
+  cursor: pointer;
+}
+
+
+#info-box {
+  display: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  background-color: #ffffff;
+  border: 1px solid #000;
+  padding: 5px;
+  font-family: Calibre Light;
+  font-size: 14px;
+  margin: auto;
+  box-shadow: 10px 10px 15px #0400ff;
+-webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+
+}
+
+#drag-1  {
+  width: 328px;
+  height: 200px;
+  box-shadow: 10px 10px 15px #ff00f2;
+-webkit-transform: translate(0px, 0px);
+        transform: translate(0px, 0px);
+}
